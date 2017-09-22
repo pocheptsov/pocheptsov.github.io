@@ -1,0 +1,8 @@
+baseURL = "http://pocheptsov.com/"
+languageCode = "en-us"
+title = "Slava Pocheptsov | "
+theme = "strange-case"
+
+[params]
+	colorScheme = "scheme-darkbrown"
+	DateFormat = "2 Jan 2006"
