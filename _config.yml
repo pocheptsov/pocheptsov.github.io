@@ -1,0 +1,35 @@
+title: Slava Pocheptsov | Complex Software Solutions
+description: > # this means to ignore newlines until "baseurl:"
+  Check this out
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: # if your site has a twitter account, enter it here
+
+# Author Settings
+author: Slava Pocheptsov # add your name
+author-img: slava-pocheptsov.jpg # add your photo
+about-author: I am a software engineer focusing on architecture and performance. # add description
+social-twitter: pocheptsov # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: pocheptsov # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: # add your Email address
+
+# Disqus
+discus-identifier: # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
