@@ -1,6 +1,7 @@
 title: Slava Pocheptsov | Make it work
 description: # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
+url: "https://pocheptsov.com" # the subpath of your site, e.g. /blog
 baseurl: "" # the subpath of your site, e.g. /blog
 site-twitter: #if your site has a twitter account, enter it here
 
@@ -18,7 +19,7 @@ social-linkedin: pocheptsov # add your Linkedin handle
 discus-identifier: pocheptsov # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: G-KVXPSZMHSG # Google Analytics
 
 # Build Settings
 markdown: kramdown
