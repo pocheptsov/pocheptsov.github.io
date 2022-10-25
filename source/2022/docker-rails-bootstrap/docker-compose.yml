@@ -1,0 +1,20 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      args:
+        RUBY_VERSION: 3.1.2
+        DEBIAN_CODENAME: bullseye
+        UID: 1000
+        GID: 1000
+    environment:
+      RAILS_ENV: development
+    volumes:
+      - .:/app:delegated
+      - bundle:/usr/local/bundle
+    stdin_open: true
+    tty: true
+volumes:
+  bundle:
